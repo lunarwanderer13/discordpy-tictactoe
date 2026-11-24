@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
-./stop.sh
-sleep 1
-./start.sh
+while true; do
+    ./stop.sh
+    sleep 1
+    ./start.sh
+done
+
