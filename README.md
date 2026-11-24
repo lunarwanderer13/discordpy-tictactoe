@@ -1,5 +1,4 @@
-# Discord.py Template
-## Prefix Commands Version
+# Discord.py Tic-Tac-Toe
 
 ### Dependencies
 ```
@@ -21,9 +20,9 @@ $ pip install -r requirements.txt
 ```
 
 ### Usage
-Rename `.envtemplate` to `.env` and fill it out with bot's variables.
+Create an `.env` file to store the environmental variables.
 ```
-$ mv .envtemplate .env
+$ touch .env
 ```
 ```
 TOKEN - your discord bot's token, grab it from the discord developers portal and make sure to keep it private
@@ -34,6 +33,4 @@ Run the bot in the activated virtual environment.
 ```
 $ ./start.sh
 ```
-Note: change the name of `discordpy-template.sh` to the name of your discord bot.  
-This will be used to locate and terminate the process when `stop.sh` is ran, so make sure to avoid generic or conflicting names.  
-If you have zero ideas for a name the best choice is to smash your head on your keyboard, that way you won't name two files the same name.
+
